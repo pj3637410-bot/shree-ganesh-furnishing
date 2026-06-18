@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About Us | Shree Ganesh Furnishing — Gujarat's Trusted Curtain & Net Experts</title>
+<meta name="description" content="About Shree Ganesh Furnishing — 7+ years of trusted premium furnishing, curtain, mosquito net, and cleaning services across all of Gujarat. Free site visit, premium materials, 7-10 year warranty." />
+<meta property="og:title" content="About Shree Ganesh Furnishing | Gujarat's Trusted Net & Curtain Experts" />
+<meta property="og:description" content="7+ years of trusted service. Premium SRP & VF brand materials. Free site visit. Expert installation. 7-10 year warranty. Serving all of Gujarat." />
+<meta property="og:type" content="website" />
+<link rel="canonical" href="https://shreeganeshfurnishing.com/about.html" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:#0A1628;color:#f8f9fa;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:'Playfair Display',serif}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+.container{max-width:1200px;margin:0 auto;padding:0 1.5rem}
+
+/* ===== NAVBAR ===== */
+#navbar{position:fixed;top:0;left:0;right:0;z-index:1000;transition:all .3s ease;height:80px;display:flex;align-items:center}
+#navbar.scrolled{background:rgba(10,22,40,.9);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.1);box-shadow:0 4px 30px rgba(0,0,0,.3)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:80px}
+.nav-logo{display:flex;align-items:center;gap:12px}
+.nav-logo img{height:52px;width:auto;transition:filter .3s}
+.nav-logo:hover img{filter:drop-shadow(0 0 8px rgba(212,175,55,.6))}
+.logo-text{display:flex;flex-direction:column;line-height:1.1}
+.logo-shri{color:#D4AF37;font-size:.7rem;font-family:serif;letter-spacing:.05em}
+.logo-ganesh{color:#f8f9fa;font-size:1.3rem;font-weight:800;font-family:'Playfair Display',serif;line-height:1}
+.logo-furnishing{color:#D4AF37;font-size:.6rem;letter-spacing:.2em;font-weight:700}
+.logo-line{height:1px;background:linear-gradient(to right,#D4AF37,transparent);margin-top:2px}
+.nav-links{display:flex;align-items:center;gap:1.5rem}
+.nav-links a{font-size:.9rem;font-weight:500;color:rgba(248,249,250,.85);transition:color .3s}
+.nav-links a:hover,.nav-links a.active{color:#00A86B}
+.nav-cta{background:#00A86B;color:#fff;padding:.65rem 1.5rem;border-radius:50px;font-weight:700;font-size:.9rem;transition:all .3s;box-shadow:0 4px 15px rgba(0,168,107,.25)}
+.nav-cta:hover{background:#008f5a;transform:translateY(-1px)}
+.hamburger{display:none;background:none;border:none;cursor:pointer;padding:8px;color:#f8f9fa}
+.hamburger svg{width:28px;height:28px}
+.mobile-menu{display:none;position:fixed;inset:0;background:#0A1628;z-index:999;flex-direction:column;padding:100px 2rem 2rem;transform:translateX(100%);transition:transform .35s cubic-bezier(.25,.46,.45,.94)}
+.mobile-menu.open{display:flex;transform:translateX(0)}
+.mobile-menu a{font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:600;padding:1rem 0;border-bottom:1px solid rgba(255,255,255,.1);color:#f8f9fa;transition:color .3s}
+.mobile-menu a:hover{color:#D4AF37}
+.mobile-menu-cta{margin-top:auto;background:#00A86B;color:#fff;text-align:center;padding:1.2rem;border-radius:16px;font-weight:700;font-size:1.1rem}
+
+/* ===== PAGE HERO ===== */
+.page-hero{padding:160px 0 80px;background:linear-gradient(135deg,#060f1e 0%,#0A1628 50%,#0d1d38 100%);position:relative;overflow:hidden;text-align:center}
+.page-hero::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle at 2px 2px,rgba(255,255,255,.08) 1px,transparent 0);background-size:32px 32px}
+.page-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(to right,transparent,#D4AF37,transparent)}
+.page-hero-tag{display:inline-block;padding:.4rem 1.25rem;border-radius:50px;background:rgba(212,175,55,.1);border:1px solid rgba(212,175,55,.3);color:#D4AF37;font-size:.8rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;margin-bottom:1.5rem}
+.page-hero-title{font-size:clamp(2.5rem,6vw,4.5rem);font-weight:800;line-height:1.1;margin-bottom:1.25rem}
+.page-hero-sub{font-size:1.15rem;color:rgba(255,255,255,.65);max-width:600px;margin:0 auto 2.5rem;line-height:1.7}
+.page-hero-btns{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center}
+.btn-gold{display:flex;align-items:center;gap:.6rem;background:linear-gradient(135deg,#D4AF37,#c9a84c);color:#0A1628;padding:.9rem 2rem;border-radius:50px;font-weight:700;transition:all .3s;box-shadow:0 4px 20px rgba(212,175,55,.3)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(212,175,55,.4)}
+.btn-wa{display:flex;align-items:center;gap:.6rem;background:#25D366;color:#fff;padding:.9rem 2rem;border-radius:50px;font-weight:700;transition:all .3s;box-shadow:0 4px 20px rgba(37,211,102,.25)}
+.btn-wa:hover{background:#20bd5a;transform:translateY(-2px)}
+
+/* ===== BREADCRUMB ===== */
+.breadcrumb{background:#0d1d38;padding:.85rem 0;border-bottom:1px solid rgba(255,255,255,.06)}
+.breadcrumb-inner{display:flex;align-items:center;gap:.5rem;font-size:.85rem;color:rgba(255,255,255,.45)}
+.breadcrumb-inner a{color:rgba(255,255,255,.45);transition:color .3s}
+.breadcrumb-inner a:hover{color:#D4AF37}
+.breadcrumb-sep{color:rgba(255,255,255,.25)}
+.breadcrumb-current{color:#D4AF37;font-weight:600}
+
+/* ===== STATS STRIP ===== */
+.stats-strip{background:#060f1e;padding:3rem 0;border-bottom:1px solid rgba(255,255,255,.06)}
+.stats-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem}
+@media(min-width:768px){.stats-grid{grid-template-columns:repeat(4,1fr)}}
+.stat-card{text-align:center;padding:2rem 1.25rem;border-radius:1.25rem;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);transition:transform .3s,border-color .3s}
+.stat-card:hover{transform:translateY(-4px);border-color:rgba(212,175,55,.3)}
+.stat-num{font-size:2.5rem;font-family:'Playfair Display',serif;font-weight:700;background:linear-gradient(to right,#D4AF37,#f5d78e);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:.35rem;line-height:1}
+.stat-label{font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.5)}
+
+/* ===== SECTION COMMONS ===== */
+section{padding:6rem 0}
+.section-label{display:inline-block;padding:.35rem 1rem;border-radius:50px;background:rgba(0,168,107,.1);border:1px solid rgba(0,168,107,.25);color:#00A86B;font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:1rem}
+.section-title{font-size:clamp(2rem,4vw,3rem);font-weight:700;margin-bottom:1rem;line-height:1.15}
+.section-line{width:4rem;height:3px;border-radius:2px;margin:.75rem 0 1.5rem}
+.line-green{background:#00A86B}
+.line-gold{background:#D4AF37}
+.section-sub{font-size:1rem;color:rgba(255,255,255,.6);line-height:1.8;max-width:600px}
+.gold{color:#D4AF37}
+.green{color:#00A86B}
+
+/* ===== OUR STORY ===== */
+#our-story{background:#12203a}
+.story-grid{display:grid;gap:5rem;align-items:center}
+@media(min-width:1024px){.story-grid{grid-template-columns:1fr 1fr}}
+.story-img-stack{position:relative;height:500px}
+.story-img-main{position:absolute;inset:0;border-radius:1.5rem;object-fit:cover;width:100%;height:100%;border:1px solid rgba(255,255,255,.1);box-shadow:0 25px 60px rgba(0,0,0,.4)}
+.story-img-float{position:absolute;bottom:-2rem;right:-1.5rem;width:180px;height:180px;border-radius:1.25rem;object-fit:cover;border:3px solid #D4AF37;box-shadow:0 15px 40px rgba(0,0,0,.5)}
+.story-year-badge{position:absolute;top:1.5rem;left:1.5rem;background:rgba(10,22,40,.9);backdrop-filter:blur(12px);border:1px solid rgba(212,175,55,.3);border-radius:1rem;padding:1.25rem 1.5rem;text-align:center}
+.story-year-num{font-size:2rem;font-family:'Playfair Display',serif;font-weight:700;color:#D4AF37;line-height:1}
+.story-year-label{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.5);margin-top:.25rem}
+.story-text p{font-size:1.05rem;color:rgba(255,255,255,.65);line-height:1.85;margin-bottom:1.25rem}
+.story-highlights{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:2rem}
+.highlight-item{display:flex;align-items:flex-start;gap:.75rem;padding:1rem;background:rgba(10,22,40,.6);border:1px solid rgba(255,255,255,.08);border-radius:.75rem}
+.highlight-icon{width:2.25rem;height:2.25rem;border-radius:.5rem;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:.1rem}
+.hi-green{background:rgba(0,168,107,.15);color:#00A86B}
+.hi-gold{background:rgba(212,175,55,.15);color:#D4AF37}
+.highlight-title{font-weight:700;font-size:.9rem;margin-bottom:.2rem}
+.highlight-desc{font-size:.8rem;color:rgba(255,255,255,.5);line-height:1.5}
+
+/* ===== MISSION VISION ===== */
+#mission{background:#0A1628}
+.mv-grid{display:grid;gap:2rem}
+@media(min-width:768px){.mv-grid{grid-template-columns:1fr 1fr}}
+@media(min-width:1024px){.mv-grid{grid-template-columns:1fr 1fr 1fr}}
+.mv-card{padding:2.5rem;border-radius:1.5rem;border:1px solid rgba(255,255,255,.08);position:relative;overflow:hidden;transition:transform .3s,border-color .3s}
+.mv-card:hover{transform:translateY(-6px)}
+.mv-card-green{background:linear-gradient(135deg,rgba(0,168,107,.12),rgba(0,168,107,.04));border-color:rgba(0,168,107,.25)}
+.mv-card-green:hover{border-color:rgba(0,168,107,.5)}
+.mv-card-gold{background:linear-gradient(135deg,rgba(212,175,55,.12),rgba(212,175,55,.04));border-color:rgba(212,175,55,.25)}
+.mv-card-gold:hover{border-color:rgba(212,175,55,.5)}
+.mv-card-navy{background:linear-gradient(135deg,rgba(255,255,255,.06),rgba(255,255,255,.02));border-color:rgba(255,255,255,.12)}
+.mv-card-navy:hover{border-color:rgba(255,255,255,.25)}
+.mv-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:3px 3px 0 0}
+.mv-card-green::before{background:linear-gradient(to right,#00A86B,rgba(0,168,107,.3))}
+.mv-card-gold::before{background:linear-gradient(to right,#D4AF37,rgba(212,175,55,.3))}
+.mv-card-navy::before{background:linear-gradient(to right,rgba(255,255,255,.4),transparent)}
+.mv-icon{width:3.5rem;height:3.5rem;border-radius:1rem;display:flex;align-items:center;justify-content:center;margin-bottom:1.5rem}
+.mv-icon-green{background:rgba(0,168,107,.15);color:#00A86B}
+.mv-icon-gold{background:rgba(212,175,55,.15);color:#D4AF37}
+.mv-icon-white{background:rgba(255,255,255,.08);color:#f8f9fa}
+.mv-icon svg{width:1.75rem;height:1.75rem}
+.mv-title{font-size:1.5rem;font-weight:700;margin-bottom:1rem}
+.mv-text{font-size:.95rem;color:rgba(255,255,255,.6);line-height:1.8}
+
+/* ===== VALUES ===== */
+#values{background:#12203a}
+.values-grid{display:grid;gap:1.5rem}
+@media(min-width:640px){.values-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.values-grid{grid-template-columns:repeat(3,1fr)}}
+.value-card{padding:2rem;border-radius:1.25rem;background:rgba(10,22,40,.6);border:1px solid rgba(255,255,255,.08);display:flex;gap:1.25rem;align-items:flex-start;transition:all .3s}
+.value-card:hover{background:rgba(10,22,40,.9);border-color:rgba(212,175,55,.25);transform:translateY(-3px)}
+.value-num{width:3rem;height:3rem;border-radius:50%;background:linear-gradient(135deg,#D4AF37,#c9a84c);display:flex;align-items:center;justify-content:center;font-weight:700;color:#0A1628;font-size:1rem;flex-shrink:0}
+.value-title{font-size:1.1rem;font-weight:700;margin-bottom:.5rem}
+.value-desc{font-size:.9rem;color:rgba(255,255,255,.55);line-height:1.6}
+
+/* ===== OUR TEAM / PROCESS ===== */
+#team{background:#0A1628}
+.timeline{position:relative;padding-left:3rem}
+.timeline::before{content:'';position:absolute;left:1rem;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,#D4AF37,rgba(212,175,55,.1))}
+.timeline-item{position:relative;margin-bottom:3rem}
+.timeline-item:last-child{margin-bottom:0}
+.timeline-dot{position:absolute;left:-2.75rem;top:.25rem;width:1.5rem;height:1.5rem;background:#D4AF37;border-radius:50%;border:3px solid #0A1628;box-shadow:0 0 0 2px #D4AF37}
+.timeline-year{font-size:.75rem;font-weight:700;color:#D4AF37;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.35rem}
+.timeline-title{font-size:1.3rem;font-weight:700;margin-bottom:.5rem}
+.timeline-desc{font-size:.95rem;color:rgba(255,255,255,.6);line-height:1.7}
+.team-right{padding:2rem;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:1.5rem}
+.team-grid{display:grid;gap:2rem}
+@media(min-width:1024px){.team-grid{grid-template-columns:1fr 1fr}}
+.commitment-list{display:flex;flex-direction:column;gap:1.25rem}
+.commitment-item{display:flex;align-items:flex-start;gap:1rem}
+.ci-icon{width:2.5rem;height:2.5rem;border-radius:.75rem;background:rgba(0,168,107,.1);color:#00A86B;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.ci-icon svg{width:1.25rem;height:1.25rem}
+.ci-title{font-weight:700;font-size:.95rem;margin-bottom:.2rem}
+.ci-desc{font-size:.85rem;color:rgba(255,255,255,.5);line-height:1.5}
+
+/* ===== SERVICE COVERAGE ===== */
+#coverage{background:#12203a}
+.coverage-grid{display:grid;gap:3rem;align-items:center}
+@media(min-width:1024px){.coverage-grid{grid-template-columns:1fr 1fr}}
+.coverage-map-placeholder{border-radius:1.5rem;overflow:hidden;border:2px solid rgba(255,255,255,.1);box-shadow:0 20px 50px rgba(0,0,0,.4)}
+.cities-list{display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem;margin-top:1.5rem}
+.city-item{display:flex;align-items:center;gap:.6rem;padding:.75rem 1rem;background:rgba(10,22,40,.6);border:1px solid rgba(255,255,255,.08);border-radius:.75rem;font-size:.9rem;font-weight:600;transition:all .3s}
+.city-item:hover{border-color:rgba(0,168,107,.4);background:rgba(0,168,107,.06)}
+.city-dot{width:.5rem;height:.5rem;border-radius:50%;background:#00A86B;flex-shrink:0}
+.coverage-note{margin-top:1.5rem;padding:1.25rem;background:rgba(0,168,107,.06);border:1px solid rgba(0,168,107,.2);border-radius:.75rem;font-size:.9rem;color:rgba(255,255,255,.65);line-height:1.7}
+
+/* ===== WHY TRUST US ===== */
+#trust-section{background:#0A1628}
+.trust-cards{display:grid;gap:1.5rem}
+@media(min-width:640px){.trust-cards{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.trust-cards{grid-template-columns:repeat(4,1fr)}}
+.tc{padding:2rem 1.5rem;border-radius:1.25rem;background:#12203a;border:1px solid rgba(255,255,255,.08);text-align:center;transition:all .3s;position:relative;overflow:hidden}
+.tc::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;transform:scaleX(0);transition:transform .3s}
+.tc:hover{transform:translateY(-5px);border-color:rgba(212,175,55,.3)}
+.tc:hover::after{transform:scaleX(1);background:linear-gradient(to right,#D4AF37,transparent)}
+.tc-icon{width:4rem;height:4rem;border-radius:50%;background:rgba(212,175,55,.1);display:flex;align-items:center;justify-content:center;margin:0 auto 1.25rem;color:#D4AF37;transition:transform .3s}
+.tc:hover .tc-icon{transform:scale(1.1)}
+.tc-icon svg{width:2rem;height:2rem}
+.tc-num{font-size:2rem;font-family:'Playfair Display',serif;font-weight:700;color:#D4AF37;margin-bottom:.35rem;line-height:1}
+.tc-title{font-weight:700;font-size:1rem;margin-bottom:.5rem}
+.tc-desc{font-size:.85rem;color:rgba(255,255,255,.5);line-height:1.6}
+
+/* ===== MATERIALS ===== */
+#materials{background:#12203a}
+.materials-grid{display:grid;gap:2rem}
+@media(min-width:768px){.materials-grid{grid-template-columns:1fr 1fr}}
+.material-card{padding:2.5rem;border-radius:1.5rem;border:1px solid rgba(255,255,255,.1);background:rgba(10,22,40,.5);transition:all .3s}
+.material-card:hover{border-color:rgba(212,175,55,.3);transform:translateY(-3px)}
+.material-badge{display:inline-block;padding:.35rem 1rem;border-radius:50px;font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:1.25rem}
+.badge-gold{background:rgba(212,175,55,.15);color:#D4AF37;border:1px solid rgba(212,175,55,.3)}
+.badge-green{background:rgba(0,168,107,.15);color:#00A86B;border:1px solid rgba(0,168,107,.3)}
+.material-name{font-size:1.6rem;font-weight:700;margin-bottom:.75rem}
+.material-desc{font-size:.95rem;color:rgba(255,255,255,.6);line-height:1.75;margin-bottom:1.5rem}
+.material-features{display:flex;flex-direction:column;gap:.6rem}
+.mf{display:flex;align-items:center;gap:.6rem;font-size:.9rem;color:rgba(255,255,255,.7)}
+.mf svg{width:1rem;height:1rem;color:#00A86B;flex-shrink:0}
+
+/* ===== PROPERTY TYPES ===== */
+#properties{background:#0A1628}
+.prop-types-grid{display:grid;gap:1.25rem}
+@media(min-width:640px){.prop-types-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.prop-types-grid{grid-template-columns:repeat(3,1fr)}}
+.prop-type-card{padding:2rem;border-radius:1.25rem;background:#12203a;border:1px solid rgba(255,255,255,.08);display:flex;align-items:flex-start;gap:1.25rem;transition:all .3s}
+.prop-type-card:hover{border-color:rgba(0,168,107,.35);transform:translateY(-3px);background:rgba(18,32,58,.9)}
+.ptc-icon{width:3rem;height:3rem;border-radius:.75rem;background:rgba(0,168,107,.1);color:#00A86B;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.ptc-icon svg{width:1.5rem;height:1.5rem}
+.ptc-title{font-weight:700;font-size:1.05rem;margin-bottom:.35rem}
+.ptc-desc{font-size:.85rem;color:rgba(255,255,255,.5);line-height:1.6}
+
+/* ===== GALLERY PREVIEW ===== */
+#gallery-preview{background:#12203a}
+.gp-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem}
+@media(min-width:640px){.gp-grid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:1024px){.gp-grid{grid-template-columns:repeat(4,1fr)}}
+.gp-item{border-radius:.75rem;overflow:hidden;aspect-ratio:4/3;position:relative;cursor:pointer}
+.gp-item img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.gp-item:hover img{transform:scale(1.06)}
+.gp-overlay{position:absolute;inset:0;background:rgba(0,0,0,.4);opacity:0;transition:opacity .3s;display:flex;align-items:center;justify-content:center}
+.gp-item:hover .gp-overlay{opacity:1}
+.gp-view{color:#fff;font-size:.8rem;font-weight:600;padding:.4rem .85rem;border:1px solid rgba(255,255,255,.5);border-radius:50px}
+.gp-cta{text-align:center;margin-top:2.5rem}
+.btn-outline-gold{display:inline-flex;align-items:center;gap:.5rem;border:2px solid #D4AF37;color:#D4AF37;padding:.85rem 2rem;border-radius:50px;font-weight:700;transition:all .3s}
+.btn-outline-gold:hover{background:#D4AF37;color:#0A1628}
+
+/* ===== TESTIMONIALS ===== */
+#testimonials{background:#0A1628}
+.test-grid{display:grid;gap:1.5rem}
+@media(min-width:640px){.test-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.test-grid{grid-template-columns:repeat(3,1fr)}}
+.test-card{padding:2rem;border-radius:1.25rem;background:#12203a;border:1px solid rgba(255,255,255,.08);transition:all .3s}
+.test-card:hover{border-color:rgba(212,175,55,.25);transform:translateY(-3px)}
+.test-quote{font-size:2.5rem;color:#D4AF37;line-height:1;margin-bottom:.75rem;font-family:Georgia,serif}
+.test-text{font-size:.95rem;color:rgba(255,255,255,.7);font-style:italic;line-height:1.75;margin-bottom:1.5rem}
+.test-rating{display:flex;gap:.2rem;color:#D4AF37;margin-bottom:.75rem}
+.test-rating svg{width:1rem;height:1rem}
+.test-name{font-weight:700;font-size:.95rem}
+.test-loc{font-size:.8rem;color:rgba(255,255,255,.4);margin-top:.2rem}
+
+/* ===== CTA BANNER ===== */
+#cta-banner{background:linear-gradient(135deg,#060f1e 0%,#0a1a30 100%);padding:6rem 0;text-align:center;position:relative;overflow:hidden;border-top:1px solid rgba(212,175,55,.2)}
+#cta-banner::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle at center,rgba(212,175,55,.04) 0%,transparent 70%)}
+.cta-title{font-size:clamp(2rem,4vw,3.5rem);font-weight:700;margin-bottom:1.25rem}
+.cta-sub{font-size:1.1rem;color:rgba(255,255,255,.65);max-width:580px;margin:0 auto 2.5rem;line-height:1.7}
+.cta-btns{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center}
+.btn-wa-large{display:flex;align-items:center;justify-content:center;gap:.75rem;padding:1.1rem 2.5rem;border-radius:50px;background:#25D366;color:#fff;font-weight:700;font-size:1.05rem;transition:all .3s;box-shadow:0 0 30px rgba(37,211,102,.3);animation:waPulse 2.5s ease-in-out infinite}
+.btn-wa-large:hover{background:#20bd5a;animation:none;box-shadow:0 0 40px rgba(37,211,102,.5)}
+@keyframes waPulse{0%,100%{box-shadow:0 0 20px rgba(37,211,102,.3)}50%{box-shadow:0 0 40px rgba(37,211,102,.5)}}
+.btn-call-large{display:flex;align-items:center;justify-content:center;gap:.75rem;padding:1.1rem 2.5rem;border-radius:50px;background:transparent;border:2px solid rgba(255,255,255,.3);color:#fff;font-weight:700;font-size:1.05rem;transition:all .3s}
+.btn-call-large:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+.cta-features{display:flex;flex-wrap:wrap;justify-content:center;gap:1.25rem;margin-top:2.5rem}
+.cta-feat{display:flex;align-items:center;gap:.5rem;font-size:.85rem;color:rgba(255,255,255,.55);font-weight:500}
+.cta-feat svg{width:1rem;height:1rem;color:#00A86B}
+
+/* ===== CONTACT STRIP ===== */
+#contact-strip{background:#060f1e;padding:4rem 0;border-top:1px solid rgba(255,255,255,.06)}
+.cs-grid{display:grid;gap:2rem}
+@media(min-width:640px){.cs-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.cs-grid{grid-template-columns:repeat(4,1fr)}}
+.cs-item{text-align:center;padding:2rem 1rem;border-radius:1rem;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);transition:all .3s}
+.cs-item:hover{border-color:rgba(0,168,107,.3);background:rgba(0,168,107,.04)}
+.cs-icon{width:3.5rem;height:3.5rem;border-radius:50%;background:rgba(0,168,107,.1);color:#00A86B;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem}
+.cs-icon svg{width:1.75rem;height:1.75rem}
+.cs-label{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.4);margin-bottom:.5rem}
+.cs-value{font-size:.95rem;font-weight:600;line-height:1.6}
+.cs-value a{color:#f8f9fa;transition:color .3s}
+.cs-value a:hover{color:#00A86B}
+.cs-hours{font-size:.85rem;color:rgba(255,255,255,.5);margin-top:.25rem;line-height:1.6}
+.cs-hours .sat{color:#f59e0b;font-weight:600}
+
+/* ===== FOOTER ===== */
+footer{background:#030810;padding:3rem 0 2rem;border-top:3px solid #D4AF37}
+.footer-inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:2rem}
+.footer-logo-wrap{display:flex;align-items:center;gap:.75rem}
+.footer-logo-wrap img{height:3rem;filter:brightness(0) invert(1)}
+.footer-logo-text{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;color:#D4AF37}
+.footer-links{display:flex;flex-wrap:wrap;gap:1.25rem}
+.footer-links a{font-size:.85rem;color:rgba(255,255,255,.45);transition:color .3s}
+.footer-links a:hover{color:#D4AF37}
+.footer-copy{margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.06);text-align:center;font-size:.8rem;color:rgba(255,255,255,.25)}
+
+/* ===== FLOATING BUTTONS ===== */
+.float-wa{position:fixed;bottom:1.5rem;right:1.5rem;z-index:999;width:4.5rem;height:4.5rem;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;box-shadow:0 6px 25px rgba(37,211,102,.45);transition:transform .3s;animation:ripple 2.5s ease-in-out infinite}
+.float-wa:hover{transform:scale(1.12);animation:none}
+.float-wa svg{width:2rem;height:2rem}
+.float-call{position:fixed;bottom:1.5rem;left:1.5rem;z-index:999;width:4rem;height:4rem;background:#ea580c;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;box-shadow:0 6px 25px rgba(234,88,12,.4);transition:transform .3s}
+.float-call:hover{transform:scale(1.12)}
+.float-call svg{width:1.6rem;height:1.6rem}
+.float-tooltip{position:absolute;bottom:110%;right:50%;transform:translateX(50%);background:#0A1628;color:#fff;padding:.35rem .85rem;border-radius:.4rem;font-size:.75rem;font-weight:600;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .25s}
+.float-wa:hover .float-tooltip{opacity:1}
+@keyframes ripple{0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,.4),0 6px 25px rgba(37,211,102,.3)}70%{box-shadow:0 0 0 14px rgba(37,211,102,0),0 6px 25px rgba(37,211,102,.3)}}
+
+/* ===== SCROLL ANIMATIONS ===== */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:none}
+.reveal-left{opacity:0;transform:translateX(-40px);transition:opacity .7s ease,transform .7s ease}
+.reveal-left.visible{opacity:1;transform:none}
+.reveal-right{opacity:0;transform:translateX(40px);transition:opacity .7s ease,transform .7s ease}
+.reveal-right.visible{opacity:1;transform:none}
+.stagger .reveal{transition-delay:calc(var(--i,0) * 0.08s)}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:1023px){.nav-links,.nav-cta{display:none}.hamburger{display:block}}
+@media(max-width:767px){.page-hero-btns{flex-direction:column;align-items:center}.story-img-stack{height:320px}.story-img-float{display:none}}
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header id="navbar" class="scrolled">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/1781533979554_1781585192733-B6hM7fRR.png" alt="Shree Ganesh Furnishing Logo" />
+      <div class="logo-text">
+        <span class="logo-shri">श्री</span>
+        <span class="logo-ganesh">Ganesh</span>
+        <div>
+          <span class="logo-furnishing">FURNISHING</span>
+          <div class="logo-line"></div>
+        </div>
+      </div>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#process">Process</a>
+      <a href="index.html#reviews">Reviews</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="about.html" class="active">About</a>
+    </nav>
+    <a href="index.html#booking" class="nav-cta">Get Free Quote</a>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+      <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html" onclick="closeMobile()">Home</a>
+  <a href="index.html#services" onclick="closeMobile()">Services</a>
+  <a href="index.html#gallery" onclick="closeMobile()">Gallery</a>
+  <a href="index.html#process" onclick="closeMobile()">Process</a>
+  <a href="index.html#reviews" onclick="closeMobile()">Reviews</a>
+  <a href="index.html#faq" onclick="closeMobile()">FAQ</a>
+  <a href="index.html#contact" onclick="closeMobile()">Contact</a>
+  <a href="about.html" onclick="closeMobile()">About</a>
+  <a href="index.html#booking" class="mobile-menu-cta" onclick="closeMobile()">Book Free Visit</a>
+</div>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb" style="margin-top:80px">
+  <div class="container">
+    <div class="breadcrumb-inner">
+      <a href="index.html">Home</a>
+      <span class="breadcrumb-sep">/</span>
+      <span class="breadcrumb-current">About Us</span>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="container">
+    <span class="page-hero-tag">Our Story</span>
+    <h1 class="page-hero-title">Gujarat's Most <span class="gold">Trusted</span><br/>Furnishing Partner</h1>
+    <p class="page-hero-sub">For 7+ years, Shree Ganesh Furnishing has been transforming homes, offices, and commercial spaces across Gujarat with premium curtains, nets, and cleaning solutions.</p>
+    <div class="page-hero-btns">
+      <a href="index.html#booking" class="btn-gold">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>
+        Book Free Site Visit
+      </a>
+      <a href="https://wa.me/919737982019?text=Hello!%20I%20want%20to%20know%20more%20about%20Shree%20Ganesh%20Furnishing." target="_blank" class="btn-wa">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp Us Now
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- STATS STRIP -->
+<div class="stats-strip">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-card reveal"><div class="stat-num" data-count="7" data-suffix="+">7+</div><div class="stat-label">Years of Experience</div></div>
+      <div class="stat-card reveal"><div class="stat-num" data-count="1000" data-suffix="+">1000+</div><div class="stat-label">Happy Customers</div></div>
+      <div class="stat-card reveal"><div class="stat-num" style="-webkit-text-fill-color:#D4AF37;background:none">Gujarat</div><div class="stat-label">Wide Service Coverage</div></div>
+      <div class="stat-card reveal"><div class="stat-num" data-count="10" data-suffix=" Yr">10 Yr</div><div class="stat-label">Product Warranty</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- OUR STORY -->
+<section id="our-story">
+  <div class="container">
+    <div class="story-grid">
+      <div class="reveal-left">
+        <div class="story-img-stack">
+          <img class="story-img-main" src="assets/IMG-20260615-WA0024_1781585192989-BPX-bG21.jpg" alt="Shree Ganesh Furnishing — Premium Spacious Hall Installation" />
+          <img class="story-img-float" src="assets/IMG-20260615-WA0026_1781585192945-CpIsA5_D.jpg" alt="Premium curtain installation project" />
+          <div class="story-year-badge">
+            <div class="story-year-num">2017</div>
+            <div class="story-year-label">Founded</div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <span class="section-label">Our Story</span>
+        <h2 class="section-title">Built on Trust,<br/><span class="gold">Driven by Quality</span></h2>
+        <div class="section-line line-gold"></div>
+        <div class="story-text">
+          <p>Shree Ganesh Furnishing was founded in 2017 with a simple but powerful vision: to bring world-class furnishing solutions to every home and business in Gujarat at transparent, affordable prices.</p>
+          <p>Starting from Mehsana, we have grown to serve thousands of happy customers across all of Gujarat — from individual residences to large commercial complexes, hospitals, schools, and industrial facilities.</p>
+          <p>What makes us different is our commitment to <strong style="color:#D4AF37">customization without compromise</strong>. Whether you bring us a photo from Google, Pinterest, Instagram, or any reference — we will craft and install exactly that design, to your exact measurements, in your exact space.</p>
+          <p>Every installation comes backed by our <strong style="color:#00A86B">7 to 10 year warranty</strong>, because we stand behind the quality of our work and the materials we use.</p>
+        </div>
+        <div class="story-highlights">
+          <div class="highlight-item"><div class="highlight-icon hi-green"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg></div><div><div class="highlight-title">Free Site Visit</div><div class="highlight-desc">No charges, no obligations</div></div></div>
+          <div class="highlight-item"><div class="highlight-icon hi-gold"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="highlight-title">7-10 Year Warranty</div><div class="highlight-desc">Industry-leading guarantee</div></div></div>
+          <div class="highlight-item"><div class="highlight-icon hi-green"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="10"/></svg></div><div><div class="highlight-title">Custom Design Match</div><div class="highlight-desc">Show any photo, we install it</div></div></div>
+          <div class="highlight-item"><div class="highlight-icon hi-gold"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div><div><div class="highlight-title">Expert Team</div><div class="highlight-desc">Trained professional installers</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISSION VISION VALUES -->
+<section id="mission">
+  <div class="container">
+    <div class="section-header" style="text-align:center;margin-bottom:3.5rem">
+      <span class="section-label">What Drives Us</span>
+      <h2 class="section-title reveal">Our Mission, Vision &amp; Values</h2>
+      <div class="section-line line-green" style="margin:1rem auto"></div>
+    </div>
+    <div class="mv-grid">
+      <div class="mv-card mv-card-green reveal">
+        <div class="mv-icon mv-icon-green"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></div>
+        <h3 class="mv-title">Our Mission</h3>
+        <p class="mv-text">To deliver premium furnishing solutions that transform living and working spaces across Gujarat — with unmatched quality, transparent pricing, and a customer-first approach that has made us the most trusted name in the industry.</p>
+      </div>
+      <div class="mv-card mv-card-gold reveal">
+        <div class="mv-icon mv-icon-gold"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h3 class="mv-title">Our Vision</h3>
+        <p class="mv-text">To be Gujarat's #1 furnishing and net solutions brand — where every customer gets their dream design at the right price, installed by experts who care, backed by a warranty that lasts a decade.</p>
+      </div>
+      <div class="mv-card mv-card-navy reveal">
+        <div class="mv-icon mv-icon-white"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg></div>
+        <h3 class="mv-title">Our Promise</h3>
+        <p class="mv-text">Every customer deserves the best — from the first phone call to the final quality check. We promise free consultation, on-time installation, premium materials, and after-sales support that never lets you down.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OUR VALUES -->
+<section id="values">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:3.5rem">
+      <span class="section-label">Core Values</span>
+      <h2 class="section-title reveal">What We Stand For</h2>
+      <div class="section-line line-gold" style="margin:1rem auto"></div>
+    </div>
+    <div class="values-grid stagger">
+      <div class="value-card reveal" style="--i:0"><div class="value-num">01</div><div><div class="value-title">Customer First</div><div class="value-desc">Every decision we make starts with one question: what's best for the customer? Your satisfaction is our only metric of success.</div></div></div>
+      <div class="value-card reveal" style="--i:1"><div class="value-num">02</div><div><div class="value-title">Zero Compromise Quality</div><div class="value-desc">We use only premium SRP and VF brand materials. We never cut corners — because we know you trust us with your home.</div></div></div>
+      <div class="value-card reveal" style="--i:2"><div class="value-num">03</div><div><div class="value-title">Complete Transparency</div><div class="value-desc">No hidden charges. No surprise bills. You get a detailed quotation before any work begins — and we stick to it.</div></div></div>
+      <div class="value-card reveal" style="--i:3"><div class="value-num">04</div><div><div class="value-title">Custom Everything</div><div class="value-desc">Show us any design from any source — we'll make it happen. No standard sizes, no cookie-cutter solutions. Only what you want.</div></div></div>
+      <div class="value-card reveal" style="--i:4"><div class="value-num">05</div><div><div class="value-title">Speed &amp; Precision</div><div class="value-desc">We complete most installations within 2 working days. Fast doesn't mean careless — every installation is quality-checked before handover.</div></div></div>
+      <div class="value-card reveal" style="--i:5"><div class="value-num">06</div><div><div class="value-title">Long-term Partnership</div><div class="value-desc">We're not just here for the installation — we provide repair, maintenance, and after-sales support for years after the job is done.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNEY / TEAM -->
+<section id="team">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:3.5rem">
+      <span class="section-label">Our Journey</span>
+      <h2 class="section-title reveal">Growing with Gujarat</h2>
+      <div class="section-line line-green" style="margin:1rem auto"></div>
+    </div>
+    <div class="team-grid">
+      <div class="reveal-left">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2017</div>
+            <div class="timeline-title">Founded in Mehsana</div>
+            <p class="timeline-desc">Started with a small team and big dreams — offering mosquito net and curtain installation services locally in Mehsana, Gujarat.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2019</div>
+            <div class="timeline-title">Expanded to Commercial Clients</div>
+            <p class="timeline-desc">Began serving offices, showrooms, restaurants, and industrial facilities. Added PVC strip curtains and industrial net solutions to our portfolio.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2021</div>
+            <div class="timeline-title">Gujarat-Wide Service Launch</div>
+            <p class="timeline-desc">Expanded operations to cover all major cities in Gujarat including Ahmedabad, Gandhinagar, Patan, Unjha, Visnagar, Kalol, and Siddhpur.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2023</div>
+            <div class="timeline-title">1000+ Happy Customers</div>
+            <p class="timeline-desc">Crossed the milestone of 1000+ successful installations with a 4.3-star average rating. Introduced sofa and deep cleaning services.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2024</div>
+            <div class="timeline-title">Premium Brand Recognition</div>
+            <p class="timeline-desc">Recognized as Gujarat's most trusted premium furnishing, curtain, and net solutions provider. Introduced 7-10 year warranty on all installations.</p>
+          </div>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <div class="team-right">
+          <h3 style="font-size:1.5rem;font-weight:700;margin-bottom:.5rem;color:#D4AF37">Our Commitment to You</h3>
+          <p style="color:rgba(255,255,255,.55);font-size:.9rem;margin-bottom:2rem;line-height:1.7">Every member of our team is trained to deliver the same standard of excellence — from the first call to the final quality check.</p>
+          <div class="commitment-list">
+            <div class="commitment-item"><div class="ci-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg></div><div><div class="ci-title">Professionally Trained Installers</div><div class="ci-desc">Our installation team undergoes rigorous training to ensure clean, precise, and damage-free installation in your home or office.</div></div></div>
+            <div class="commitment-item"><div class="ci-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="ci-title">On-Site Measurement Experts</div><div class="ci-desc">We send dedicated measurement specialists who ensure every dimension is taken with precision — because accuracy matters for perfect fit.</div></div></div>
+            <div class="commitment-item"><div class="ci-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="ci-title">Quality Assurance Team</div><div class="ci-desc">Every completed installation is reviewed by our QA team before handover. We don't leave until you're fully satisfied.</div></div></div>
+            <div class="commitment-item"><div class="ci-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg></div><div><div class="ci-title">24/7 After-Sales Support</div><div class="ci-desc">Our team is always available to help with warranty claims, repairs, and maintenance — even years after installation.</div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY TRUST US CARDS -->
+<section id="trust-section">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:3.5rem">
+      <span class="section-label">Why Choose Us</span>
+      <h2 class="section-title reveal">Reasons Our Customers<br/><span class="gold">Keep Coming Back</span></h2>
+      <div class="section-line line-gold" style="margin:1rem auto"></div>
+    </div>
+    <div class="trust-cards">
+      <div class="tc reveal"><div class="tc-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg></div><div class="tc-num">7+</div><div class="tc-title">Years of Expertise</div><div class="tc-desc">Over 7 years of hands-on experience across hundreds of installation types and property categories in Gujarat.</div></div>
+      <div class="tc reveal"><div class="tc-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div class="tc-num">10 Yr</div><div class="tc-title">Warranty Guarantee</div><div class="tc-desc">Industry-leading 7-10 year warranty on all installations. Your investment is protected for the long run.</div></div>
+      <div class="tc reveal"><div class="tc-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div><div class="tc-num">Free</div><div class="tc-title">Site Visit &amp; Quote</div><div class="tc-desc">100% free site visit, measurement, and quotation. No hidden fees, no surprises, no obligations.</div></div>
+      <div class="tc reveal"><div class="tc-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg></div><div class="tc-num">4.3★</div><div class="tc-title">Customer Rating</div><div class="tc-desc">4.3-star average Google rating from 100+ genuine customer reviews across Gujarat.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MATERIALS -->
+<section id="materials">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:3.5rem">
+      <span class="section-label">Premium Materials</span>
+      <h2 class="section-title reveal">We Only Use<br/><span class="gold">The Best</span></h2>
+      <div class="section-line line-gold" style="margin:1rem auto"></div>
+      <p class="section-sub reveal" style="margin:0 auto;text-align:center">We exclusively work with premium, industry-certified brands that have proven their quality and durability over decades.</p>
+    </div>
+    <div class="materials-grid">
+      <div class="material-card reveal">
+        <span class="material-badge badge-gold">Primary Material Brand</span>
+        <h3 class="material-name">SRP Brand</h3>
+        <p class="material-desc">SRP (Standard Reinforced Products) is one of India's most trusted names in net and curtain materials. Known for exceptional tensile strength, UV resistance, and long service life — the material of choice for premium installations.</p>
+        <div class="material-features">
+          <div class="mf"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> High tensile strength — doesn't sag or stretch over time</div>
+          <div class="mf"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> UV-resistant coating for outdoor and semi-outdoor use</div>
+          <div class="mf"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> Rust-proof frame components — lasts 7-10 years</div>
+          <div class="mf"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> Available in multiple mesh sizes and colors</div>
+          <div class="mf"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> Certified safe for children and pets</div>
+        </div>
+      </div>
+      <div class="material-card reveal">
+        <span class="material-badge badge-green">Premium Curtain Brand</span>
+        <h3 class="material-name">VF Brand</h3>
+        <p class="material-desc">VF (Verified Fabric) brand curtains represent the pinnacle of commercial-grade curtain materials. From heavy-duty industrial PVC strips to elegant residential fabrics — VF ensures beauty and durability in every fiber.</p>
+        <div class="material-features">
+          <div class="mf"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> Commercial-grade PVC for industrial curtains</div>
+          <div class="mf"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> Premium fabric weaves for residential elegance</div>
+          <div class="mf"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> Thermal and acoustic insulation properties</div>
+          <div class="mf"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> Easy-clean and stain-resistant surfaces</div>
+          <div class="mf"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> Wide range of colors, patterns, and textures</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROPERTY TYPES WE SERVE -->
+<section id="properties">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:3.5rem">
+      <span class="section-label">Who We Serve</span>
+      <h2 class="section-title reveal">Every Property Type,<br/><span class="gold">Every Requirement</span></h2>
+      <div class="section-line line-green" style="margin:1rem auto"></div>
+    </div>
+    <div class="prop-types-grid">
+      <div class="prop-type-card reveal"><div class="ptc-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg></div><div><div class="ptc-title">Residential Homes</div><div class="ptc-desc">Villas, bungalows, flats, and apartments — we install mosquito nets, curtains, balcony safety nets, and more for families across Gujarat.</div></div></div>
+      <div class="prop-type-card reveal"><div class="ptc-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="15" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg></div><div><div class="ptc-title">Commercial Offices</div><div class="ptc-desc">Corporate offices, co-working spaces, and business centers — we provide AC curtains, PVC partitions, and window/door nets.</div></div></div>
+      <div class="prop-type-card reveal"><div class="ptc-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 21V11l5-5 5 5V21"/><path d="M14 21V9l7-4v16"/></svg></div><div><div class="ptc-title">Industrial Factories</div><div class="ptc-desc">Warehouses, manufacturing plants, and cold storage — heavy-duty AC curtains, PVC strip curtains, and industrial safety nets.</div></div></div>
+      <div class="prop-type-card reveal"><div class="ptc-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="9" y1="22" x2="9" y2="12"/><line x1="15" y1="22" x2="15" y2="12"/><rect x="9" y="12" width="6" height="10"/></svg></div><div><div class="ptc-title">Housing Societies</div><div class="ptc-desc">Apartment complexes and gated communities — society-wide pigeon nets, balcony safety nets, and common area curtains.</div></div></div>
+      <div class="prop-type-card reveal"><div class="ptc-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><div><div class="ptc-title">Hospitals &amp; Schools</div><div class="ptc-desc">Medical facilities and educational institutions — sterile-grade curtains, insect-proof nets, and safety solutions for sensitive environments.</div></div></div>
+      <div class="prop-type-card reveal"><div class="ptc-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 3h18v18H3z"/><path d="M3 9h18M3 15h18M9 3v18"/></svg></div><div><div class="ptc-title">Showrooms &amp; Restaurants</div><div class="ptc-desc">Retail outlets, hotels, and food establishments — elegant curtains, partition solutions, and bird/insect protection nets.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE COVERAGE MAP -->
+<section id="coverage">
+  <div class="container">
+    <div class="coverage-grid">
+      <div class="reveal-left">
+        <span class="section-label">Where We Serve</span>
+        <h2 class="section-title">All Across <span class="gold">Gujarat</span></h2>
+        <div class="section-line line-gold"></div>
+        <p style="color:rgba(255,255,255,.65);line-height:1.8;margin-bottom:1.5rem;font-size:.95rem">Based in Mehsana, we provide on-site service to customers across all major cities and towns of Gujarat. No location is too far — our team travels to you.</p>
+        <div class="cities-list">
+          <div class="city-item"><div class="city-dot"></div>Ahmedabad</div>
+          <div class="city-item"><div class="city-dot"></div>Mehsana</div>
+          <div class="city-item"><div class="city-dot"></div>Gandhinagar</div>
+          <div class="city-item"><div class="city-dot"></div>Patan</div>
+          <div class="city-item"><div class="city-dot"></div>Unjha</div>
+          <div class="city-item"><div class="city-dot"></div>Visnagar</div>
+          <div class="city-item"><div class="city-dot"></div>Kalol</div>
+          <div class="city-item"><div class="city-dot"></div>Siddhpur</div>
+        </div>
+        <div class="coverage-note">
+          &#128205; <strong>Our base office:</strong> Bandhan Complex, Bandhan Bunglows, G-1, Modhera Road, Near Welcome Party Plot, Brahmani Nagar, Mehsana, Gujarat – 384002<br/><br/>
+          &#9989; We serve all nearby areas too — if you're in Gujarat, we can reach you!
+        </div>
+      </div>
+      <div class="reveal-right">
+        <div class="coverage-map-placeholder">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.6!2d72.3714!3d23.5880!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c43f3789f79ff%3A0x3b7c7f3e2c4d8e2a!2sBandhan%20Complex%2C%20Modhera%20Rd%2C%20Brahmani%20Nagar%2C%20Mehsana%2C%20Gujarat%20384002!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="450" style="border:0;display:block" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Shree Ganesh Furnishing Location — Mehsana Gujarat"></iframe>
+        </div>
+        <div style="margin-top:1.25rem;display:flex;gap:1rem;flex-wrap:wrap">
+          <a href="https://maps.app.goo.gl/sn4rQAwyimcT8WjN8" target="_blank" style="display:inline-flex;align-items:center;gap:.5rem;background:#00A86B;color:#fff;padding:.7rem 1.4rem;border-radius:50px;font-weight:600;font-size:.9rem;transition:all .3s" onmouseover="this.style.background='#008f5a'" onmouseout="this.style.background='#00A86B'">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Open in Google Maps
+          </a>
+          <a href="tel:+919737982019" style="display:inline-flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);color:#f8f9fa;padding:.7rem 1.4rem;border-radius:50px;font-weight:600;font-size:.9rem;transition:all .3s" onmouseover="this.style.background='rgba(255,255,255,.1)'" onmouseout="this.style.background='rgba(255,255,255,.06)'">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY PREVIEW -->
+<section id="gallery-preview">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:3rem">
+      <span class="section-label">Our Work</span>
+      <h2 class="section-title reveal">A Glimpse of Our<br/><span class="gold">Best Projects</span></h2>
+      <div class="section-line line-gold" style="margin:1rem auto"></div>
+      <p class="section-sub reveal" style="margin:0 auto;text-align:center">Real photos from real customer installations across Gujarat. Every project is unique — and done to perfection.</p>
+    </div>
+    <div class="gp-grid">
+      <div class="gp-item reveal"><img src="assets/IMG-20260615-WA0029_1781585192808-BPCF6Orn.jpg" alt="Premium furnishing project" loading="lazy"/><div class="gp-overlay"><span class="gp-view">View</span></div></div>
+      <div class="gp-item reveal"><img src="assets/IMG-20260615-WA0031_1781585192896-BeLFcNYn.jpg" alt="Premium furnishing project" loading="lazy"/><div class="gp-overlay"><span class="gp-view">View</span></div></div>
+      <div class="gp-item reveal"><img src="assets/IMG-20260615-WA0026_1781585192945-CpIsA5_D.jpg" alt="Curtains installation" loading="lazy"/><div class="gp-overlay"><span class="gp-view">View</span></div></div>
+      <div class="gp-item reveal"><img src="assets/IMG-20260615-WA0025_1781585193034-Dy0ioS-w.jpg" alt="Premium sofa project" loading="lazy"/><div class="gp-overlay"><span class="gp-view">View</span></div></div>
+      <div class="gp-item reveal"><img src="assets/IMG-20260615-WA0027_1781585193087-CshP6yXY.jpg" alt="Modern furnishing project" loading="lazy"/><div class="gp-overlay"><span class="gp-view">View</span></div></div>
+      <div class="gp-item reveal"><img src="assets/IMG-20260615-WA0020_1781585193193-lDm7VGWg.jpg" alt="Turquoise sofa installation" loading="lazy"/><div class="gp-overlay"><span class="gp-view">View</span></div></div>
+      <div class="gp-item reveal"><img src="assets/IMG-20260615-WA0019_1781585193134-BVOnEe7i.jpg" alt="Premium living room" loading="lazy"/><div class="gp-overlay"><span class="gp-view">View</span></div></div>
+      <div class="gp-item reveal"><img src="assets/IMG-20260615-WA0011_1781626216104-BYla1-3j.jpg" alt="Before after cleaning" loading="lazy"/><div class="gp-overlay"><span class="gp-view">View</span></div></div>
+    </div>
+    <div class="gp-cta">
+      <a href="index.html#gallery" class="btn-outline-gold">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21,15 16,10 5,21"/></svg>
+        View Full Gallery
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:3.5rem">
+      <div style="display:flex;justify-content:center;gap:.25rem;color:#D4AF37;margin-bottom:1rem">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+      </div>
+      <span class="section-label">Happy Customers</span>
+      <h2 class="section-title reveal">What Gujarat Says<br/><span class="gold">About Us</span></h2>
+      <div class="section-line line-gold" style="margin:1rem auto"></div>
+      <p style="color:rgba(255,255,255,.5);font-size:.95rem">&#11088; 4.3 Rating &bull; 1000+ Happy Customers</p>
+    </div>
+    <div class="test-grid">
+      <div class="test-card reveal"><div class="test-quote">"</div><p class="test-text">Excellent mosquito net installation. Team came on time, measured precisely, and the quality is top-notch. No mosquitoes since installation. Highly recommend Shree Ganesh Furnishing to everyone!</p><div class="test-rating"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg></div><div class="test-name">Rajesh Patel</div><div class="test-loc">Mehsana, Gujarat</div></div>
+      <div class="test-card reveal"><div class="test-quote">"</div><p class="test-text">I showed them a Pinterest photo of curtains and they made an exact copy! The quality is even better than what I expected. Free site visit was very helpful. The entire team was professional and courteous.</p><div class="test-rating"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg></div><div class="test-name">Priya Shah</div><div class="test-loc">Gandhinagar, Gujarat</div></div>
+      <div class="test-card reveal"><div class="test-quote">"</div><p class="test-text">Got balcony safety nets for my 8th floor flat. My kids can now play near the balcony safely. Installation was fast — done in just one day! Great quality nets and very reasonable pricing. 5 stars from us.</p><div class="test-rating"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="2"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg></div><div class="test-name">Hitesh Desai</div><div class="test-loc">Ahmedabad, Gujarat</div></div>
+    </div>
+    <div style="text-align:center;margin-top:2.5rem"><a href="index.html#reviews" class="btn-outline-gold">See All Reviews</a></div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section id="cta-banner">
+  <div class="container">
+    <h2 class="cta-title reveal">Ready to Transform<br/><span class="gold">Your Space?</span></h2>
+    <p class="cta-sub reveal">Book a FREE site visit today — our expert will visit you, take precise measurements, and give you a detailed quotation. No charges, no obligations.</p>
+    <div class="cta-btns">
+      <a href="https://wa.me/919737982019?text=Hello!%20Mujhe%20FREE%20site%20visit%20book%20karni%20hai.%20Please%20contact%20karein." target="_blank" class="btn-wa-large">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Book FREE Site Visit on WhatsApp
+      </a>
+      <a href="tel:+919737982019" class="btn-call-large">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Call +91 9737982019
+      </a>
+    </div>
+    <div class="cta-features">
+      <div class="cta-feat"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> 100% Free Visit</div>
+      <div class="cta-feat"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> Same Day Response</div>
+      <div class="cta-feat"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> No Hidden Charges</div>
+      <div class="cta-feat"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> All Gujarat Coverage</div>
+      <div class="cta-feat"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20,6 9,17 4,12"/></svg> 7-10 Year Warranty</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT STRIP -->
+<section id="contact-strip">
+  <div class="container">
+    <div class="cs-grid">
+      <div class="cs-item"><div class="cs-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div><div class="cs-label">Phone</div><div class="cs-value"><a href="tel:+919737982019">+91 9737982019</a><br/><a href="tel:+919723574459">+91 9723574459</a></div></div>
+      <div class="cs-item"><div class="cs-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></div><div class="cs-label">WhatsApp</div><div class="cs-value"><a href="https://wa.me/919737982019" target="_blank">+91 9737982019</a></div></div>
+      <div class="cs-item"><div class="cs-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div class="cs-label">Email</div><div class="cs-value"><a href="mailto:dhruvpatel.dp526@gmail.com">dhruvpatel.dp526@gmail.com</a></div></div>
+      <div class="cs-item"><div class="cs-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg></div><div class="cs-label">Business Hours</div><div class="cs-value"><div class="cs-hours">Mon–Fri: 8AM–7:30PM<br/><span class="sat">Sat: 8AM–6:30PM &#9888;</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo-wrap">
+        <img src="assets/1781533979554_1781585192733-B6hM7fRR.png" alt="Shree Ganesh Furnishing" />
+        <div class="footer-logo-text">Shree Ganesh Furnishing</div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#gallery">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="index.html#booking">Book Visit</a>
+      </div>
+    </div>
+    <div class="footer-copy">
+      &copy; 2024 Shree Ganesh Furnishing. All Rights Reserved. | Mehsana, Gujarat | Made with &#10084; in India
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<a href="https://wa.me/919737982019?text=Hello!%20Mujhe%20free%20site%20visit%20chahiye." target="_blank" class="float-wa" title="Chat on WhatsApp">
+  <span class="float-tooltip">Chat with us</span>
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<a href="tel:+919737982019" class="float-call" title="Call us">
+  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+</a>
+
+<script>
+// Navbar scroll
+window.addEventListener('scroll',function(){
+  var n=document.getElementById('navbar');
+  if(window.scrollY>20)n.classList.add('scrolled');
+  else n.classList.add('scrolled'); // always frosted on about page
+});
+
+// Mobile menu
+var menuOpen=false;
+document.getElementById('hamburgerBtn').addEventListener('click',function(){
+  menuOpen=!menuOpen;
+  var m=document.getElementById('mobileMenu');
+  if(menuOpen){m.classList.add('open');m.style.display='flex';}
+  else{m.classList.remove('open');}
+});
+function closeMobile(){
+  menuOpen=false;
+  document.getElementById('mobileMenu').classList.remove('open');
+}
+
+// Scroll reveal
+var io=new IntersectionObserver(function(entries){
+  entries.forEach(function(e){
+    if(e.isIntersecting){
+      e.target.classList.add('visible');
+      // Animate stat numbers
+      var numEl=e.target.querySelector('.stat-num[data-count]');
+      if(numEl && !numEl.dataset.animated){
+        numEl.dataset.animated='1';
+        animateCount(numEl);
+      }
+    }
+  });
+},{threshold:0.12});
+
+document.querySelectorAll('.reveal,.reveal-left,.reveal-right,.stat-card').forEach(function(el){io.observe(el);});
+
+function animateCount(el){
+  var target=parseFloat(el.getAttribute('data-count'));
+  var suffix=el.getAttribute('data-suffix')||'';
+  var duration=2000;
+  var start=performance.now();
+  function update(now){
+    var elapsed=now-start;
+    var progress=Math.min(elapsed/duration,1);
+    var eased=1-Math.pow(1-progress,3);
+    var current=target*eased;
+    el.textContent=(Number.isInteger(target)?Math.floor(current):current.toFixed(1))+suffix;
+    if(progress<1)requestAnimationFrame(update);
+    else el.textContent=(Number.isInteger(target)?target:target)+suffix;
+  }
+  requestAnimationFrame(update);
+}
+</script>
+</body>
+</html>
